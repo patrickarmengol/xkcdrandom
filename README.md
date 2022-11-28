@@ -7,14 +7,31 @@
 
 **Table of Contents**
 
+- [About](#about)
 - [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
+
+## About
+
+A random number generator made in accordance with https://xkcd.com/221/.
+
+This is really just a test project to help me understand Python packaging and distribution with [Hatch](https://hatch.pypa.io/latest/)
 
 ## Installation
 
 ```console
 pip install xkcdrandom
 ```
+
+## Usage
+
+```
+import xkcdrandom
+
+num = xkcdrandom.get_random_number()
+```
+
 
 ## License
 

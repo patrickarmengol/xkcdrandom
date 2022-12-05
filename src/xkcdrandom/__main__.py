@@ -1,6 +1,6 @@
 import sys
 
-from xkcdrandom.grn import get_random_number
+from xkcdrandom import get_random_number
 
 
 def main() -> None:
